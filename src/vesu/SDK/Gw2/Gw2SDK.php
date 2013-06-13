@@ -67,7 +67,7 @@ class Gw2SDK
 	const URL_ITEM_DETAILS = 'item_details.json?item_id=%d&lang=%s';
 	const URL_RECIPES = 'recipes.json';
 	const URL_RECIPE_DETAILS = 'recipe_details.json?recipe_id=%d&lang=%s';
-	const URL_GUILD_DETAILS_BY_ID = 'guild_details.json?guild_id=%d';
+	const URL_GUILD_DETAILS_BY_ID = 'guild_details.json?guild_id=%s';
 	const URL_GUILD_DETAILS_BY_NAME = 'guild_details.json?guild_name=%s';
 	const URL_BUILD = 'build.json';
 	const URL_COLORS = 'colors.json?lang=%s';
