@@ -12,7 +12,7 @@ require(dirname(__FILE__).'/Gw2Cache.php');
  * @author Justin Frydman
  * @author Thomas Winter (modified)
  * @license https://github.com/defunctl/Gw2-SDK/blob/master/LICENSE.md MIT
- * @version 0.2 beta
+ * @version 0.3 beta
  */
 class Gw2SDK
 {
@@ -67,6 +67,11 @@ class Gw2SDK
 	const URL_ITEM_DETAILS = 'item_details.json?item_id=%d&lang=%s';
 	const URL_RECIPES = 'recipes.json';
 	const URL_RECIPE_DETAILS = 'recipe_details.json?recipe_id=%d&lang=%s';
+	const URL_GUILD_DETAILS_BY_ID = 'guild_details.json?guild_id=%d';
+	const URL_GUILD_DETAILS_BY_NAME = 'guild_details.json?guild_name=%s';
+	const URL_BUILD = 'build.json';
+	const URL_COLORS = 'colors.json?lang=%s';
+	
 
     /**
      * SDK constructor
